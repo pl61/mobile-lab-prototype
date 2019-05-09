@@ -1,0 +1,27 @@
+{
+  "name": "ssp-lab-prototype",
+  "version": "1.0.0",
+  "description": "protype of lab website",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/",
+    "server": "nodemon server/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pl61/ssp-lab-prototype.git"
+  },
+  "keywords": [],
+  "author": "pl61",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pl61/ssp-lab-prototype/issues"
+  },
+  "homepage": "https://github.com/pl61/ssp-lab-prototype#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
