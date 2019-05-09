@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <title>Lab Website Prototype</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- bootstrap css-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/brands.css" integrity="sha384-rf1bqOAj3+pw6NqYrtaE1/4Se2NBwkIfeYbsFdtiR6TQz0acWiwJbv1IM/Nt/ite" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/fontawesome.css" integrity="sha384-1rquJLNOM3ijoueaaeS5m+McXPJCGdr5HcA03/VHXxcp2kX2sUrQDmFc3jR5i/C7" crossorigin="anonymous">
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <!-- popper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <!-- bootstrap js -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <!-- font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,500">
+    <!-- custom -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-dark bg-dark fixed-top p-0">
+      <div class="navbar-expand-sm">
+        <!-- toggler -->
+        <button class="navbar-toggler p-1" type="button" data-toggle="collapse" data-target="#navbarLeft" aria-controls="navbarLeft" aria-expanded="false" aria-label="Toggle navigation">
+          <span id="navTog" class="navbar-toggler-icon"></span>
+        </button>
+        <!-- /toggler -->
+        <!-- links -->
+        <div id="navbarLeft" class="collapse navbar-collapse pl-2">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#research">Research</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#people">People</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#gallery">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#publications">Publications</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <!-- /links -->
+      </div>
+    </nav>
+    <!-- twitter -->
+    <div class="navtog2">
+      <button class="navbar-toggler pr-3" type="button" data-toggle="collapse" data-target="#navbarLeft2" aria-controls="navbarLeft2" aria-expanded="false" aria-label="Toggle navigation">
+        <i id="twitTog" class="fab fa-twitter" style="color: white;"></i>
+      </button>
+    </div>
+    <div id="navbarLeft2" class="collapse navbar-collapse">
+      <div class="container bg-dark">
+        <a class="twitter-timeline" data-height="300" data-theme="dark" data-chrome="transparent" href="https://twitter.com/EmrgencyKittens?ref_src=twsrc%5Etfw">Tweets by EmrgencyKittens</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </div>
+    </div>
+    <!-- /twitter -->
+    <!-- /navbar -->
+    <!-- content -->
+    <div class="main">
+      <!-- banner -->
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <p class="jumbo-text-s">Welcome to</p>
+          <p class="jumbo-text-l">Lab Website Prototype</p>
+        </div>
+      </div>
+      <!-- /banner -->
+      <!-- research -->
+      <!-- genetics -->
+      <div id="research" class="container section">
+        <div class="subheader-small">
+          Mapping genetic interactions
+        </div>
+        <div class="row align-items-center">
+          <div class="col-md illust">
+            <img class="img-fluid" src="img/figs/research1.png">
+          </div>
+          <div class="col-md description">
+            <div>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /genetics -->
+      <!-- membrane -->
+      <div class="container section">
+        <div class="subheader-small order-2">
+          Understanding membrane contact sites
+        </div>
+        <div class="row align-items-center">
+          <div class="col-md illust order-md-2">
+            <img class="img-fluid" src="img/figs/research2.png">
+          </div>
+          <div class="col-md description">
+            <div>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /membrane -->
+      <!-- human -->
+      <div class="container section">
+        <div class="subheader-small">
+          Functionalizing human proteins
+        </div>
+        <div class="row align-items-center">
+          <div class="col-md illust">
+            <img class="img-fluid" src="img/figs/research3.png">
+          </div>
+          <div class="col-md description">
+            <div>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /human -->
+      <!-- /research -->
+      <!-- people -->
+      <!-- thumbnail -->
+      <div id="people" class="container text-nowrap">
+        <div class="subheader">
+          People
+        </div>
+        <div class="col text-center thumb-wrap">
+          <div class="wrapper" data-toggle="modal" data-target="#chris">
+            <img class="rounded-circle" src="http://placekitten.com/256/256">
+            <div>Chris</div>
+            <div class="thumb-cap">Associate Professor</div>
+          </div>
+        </div>
+        <div class="row align-items-center text-center">
+          <div class="col thumb-wrap">
+            <div class="wrapper" data-toggle="modal" data-target="#barry">
+              <img class="rounded-circle" src="http://placekitten.com/256/256">
+              <div>Barry</div>
+              <div class="thumb-cap">Research Associate</div>
+            </div>
+          </div>
+          <div class="col thumb-wrap">
+            <div class="wrapper" data-toggle="modal" data-target="#jesse">
+              <img class="rounded-circle" src="http://placekitten.com/256/256">
+              <div>Jesse</div>
+              <div class="thumb-cap">Postdoc</div>
+            </div>
+          </div>
+          <div class="col thumb-wrap">
+            <div class="wrapper" data-toggle="modal" data-target="#anna">
+              <img class="rounded-circle" src="http://placekitten.com/256/256">
+              <div>Anna</div>
+              <div class="thumb-cap">PhD Candidate</div>
+            </div>
+          </div>
+          <div class="col thumb-wrap">
+            <div class="wrapper" data-toggle="modal" data-target="#jig">
+              <img class="rounded-circle" src="http://placekitten.com/256/256">
+              <div>Jig</div>
+              <div class="thumb-cap">PhD Student</div>
+            </div>
+          </div>
+          <div class="col thumb-wrap">
+            <div class="wrapper" data-toggle="modal" data-target="#siv">
+              <img class="rounded-circle" src="http://placekitten.com/256/256">
+              <div>Siv</div>
+              <div class="thumb-cap">PhD Student</div>
+            </div>
+          </div>
+          <div class="col thumb-wrap">
+            <div class="wrapper" data-toggle="modal" data-target="#ro">
+              <img class="rounded-circle" src="http://placekitten.com/256/256">
+              <div>Ro</div>
+              <div class="thumb-cap">Co-op Student</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="peopleModal">
+        <div id="chris" class="modal fade" role="dialog" aria-labelledby="#chris" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <img class="modal-thumb mr-2" src="http://placekitten.com/256/256">
+                <div><strong>Chris, PhD</strong><br><i>Associate Professor</i></div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <ul class="list-unstyled">
+                  <li>
+                    <strong>Education:</strong>
+                    <br>University of British Columbia, Canada
+                    <br>University of Toronto, Canada
+                  </li>
+                  <li>
+                    <br><strong>Email:</strong> placeholder@email.com
+                  </li>
+                  <li>
+                    <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  </li>
+                  <li>
+                    <br><strong>Selected Publications:</strong><br><br>
+                    <li>
+                      <strong>Lastname, F.</strong> (2001). Interesting Title. <i>Science</i>, 12(3-4), 567-890.<br><br>
+                    </li>
+                    <li>
+                      <strong>Lastname, F.</strong> (2001). Interesting Title. <i>Science</i>, 12(3-4), 567-890.<br><br>
+                    </li>
+                    <li>
+                      <strong>Lastname, F.</strong> (2001). Interesting Title. <i>Science</i>, 12(3-4), 567-890.<br><br>
+                    </li>
+                  </li>
+                </ul>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="barry" class="modal fade" role="dialog" aria-labelledby="#barry" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <img class="modal-thumb mr-2" src="http://placekitten.com/256/256">
+                <div><strong>Barry, PhD</strong><br><i>Research Associate</i></div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <ul class="list-unstyled">
+                  <li>
+                    <strong>Education:</strong>
+                    <br>University of British Columbia, Canada
+                    <br>University of Toronto, Canada
+                  </li>
+                  <li>
+                    <br><strong>Email:</strong> placeholder@email.com
+                  </li>
+                  <li>
+                    <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  </li>
+                  <li>
+                    <br><strong>Selected Publications:</strong><br><br>
+                    <li>
+                      <strong>Lastname, F.</strong> (2001). Interesting Title. <i>Science</i>, 12(3-4), 567-890.<br><br>
+                    </li>
+                    <li>
+                      <strong>Lastname, F.</strong> (2001). Interesting Title. <i>Science</i>, 12(3-4), 567-890.<br><br>
+                    </li>
+                    <li>
+                      <strong>Lastname, F.</strong> (2001). Interesting Title. <i>Science</i>, 12(3-4), 567-890.<br><br>
+                    </li>
+                  </li>
+                </ul>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="jesse" class="modal fade" role="dialog" aria-labelledby="#jesse" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <img class="modal-thumb mr-2" src="http://placekitten.com/256/256">
+                <div><strong>Jesse, PhD</strong><br><i>Post-doc</i></div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <ul class="list-unstyled">
+                  <li>
+                    <strong>Education:</strong>
+                    <br>University of British Columbia, Canada
+                    <br>University of Toronto, Canada
+                  </li>
+                  <li>
+                    <br><strong>Email:</strong> placeholder@email.com
+                  </li>
+                  <li>
+                    <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  </li>
+                  <li>
+                    <br><strong>Selected Publications:</strong><br><br>
+                    <li>
+                      <strong>Lastname, F.</strong> (2001). Interesting Title. <i>Science</i>, 12(3-4), 567-890.<br><br>
+                    </li>
+                    <li>
+                      <strong>Lastname, F.</strong> (2001). Interesting Title. <i>Science</i>, 12(3-4), 567-890.<br><br>
+                    </li>
+                    <li>
+                      <strong>Lastname, F.</strong> (2001). Interesting Title. <i>Science</i>, 12(3-4), 567-890.<br><br>
+                    </li>
+                  </li>
+                </ul>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="anna" class="modal fade" role="dialog" aria-labelledby="#anna" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <img class="modal-thumb mr-2" src="http://placekitten.com/256/256">
+                <div><strong>Anna</strong><br><i>PhD Candidate</i></div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <ul class="list-unstyled">
+                  <li>
+                    <strong>Education:</strong>
+                    <br>University of British Columbia, Canada
+                    <br>University of Toronto, Canada
+                  </li>
+                  <li>
+                    <br><strong>Email:</strong> placeholder@email.com
+                  </li>
+                  <li>
+                    <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  </li>
+                  <li>
+                    <br><strong>Selected Publications:</strong><br><br>
+                    <li>
+                      <strong>Lastname, F.</strong> (2001). Interesting Title. <i>Science</i>, 12(3-4), 567-890.<br><br>
+                    </li>
+                    <li>
+                      <strong>Lastname, F.</strong> (2001). Interesting Title. <i>Science</i>, 12(3-4), 567-890.<br><br>
+                    </li>
+                    <li>
+                      <strong>Lastname, F.</strong> (2001). Interesting Title. <i>Science</i>, 12(3-4), 567-890.<br><br>
+                    </li>
+                  </li>
+                </ul>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="jig" class="modal fade" role="dialog" aria-labelledby="#jig" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <img class="modal-thumb mr-2" src="http://placekitten.com/256/256">
+                <div><strong>Jig</strong><br><i>PhD Student</i></div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <ul class="list-unstyled">
+                  <li>
+                    <strong>Education:</strong>
+                    <br>University of British Columbia, Canada
+                    <br>University of Toronto, Canada
+                  </li>
+                  <li>
+                    <br><strong>Email:</strong> placeholder@email.com
+                  </li>
+                  <li>
+                    <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  </li>
+                  <li>
+                    <br><strong>Selected Publications:</strong><br><br>
+                    <li>
+                      <strong>Lastname, F.</strong> (2001). Interesting Title. <i>Science</i>, 12(3-4), 567-890.<br><br>
+                    </li>
+                    <li>
+                      <strong>Lastname, F.</strong> (2001). Interesting Title. <i>Science</i>, 12(3-4), 567-890.<br><br>
+                    </li>
+                    <li>
+                      <strong>Lastname, F.</strong> (2001). Interesting Title. <i>Science</i>, 12(3-4), 567-890.<br><br>
+                    </li>
+                  </li>
+                </ul>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="siv" class="modal fade" role="dialog" aria-labelledby="#siv" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <img class="modal-thumb mr-2" src="http://placekitten.com/256/256">
+                <div><strong>Siv</strong><br><i>PhD Student</i></div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <ul class="list-unstyled">
+                  <li>
+                    <strong>Education:</strong>
+                    <br>University of British Columbia, Canada
+                    <br>University of Toronto, Canada
+                  </li>
+                  <li>
+                    <br><strong>Email:</strong> placeholder@email.com
+                  </li>
+                  <li>
+                    <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  </li>
+                  <li>
+                    <br><strong>Selected Publications:</strong><br><br>
+                    <li>
+                      <strong>Lastname, F.</strong> (2001). Interesting Title. <i>Science</i>, 12(3-4), 567-890.<br><br>
+                    </li>
+                    <li>
+                      <strong>Lastname, F.</strong> (2001). Interesting Title. <i>Science</i>, 12(3-4), 567-890.<br><br>
+                    </li>
+                    <li>
+                      <strong>Lastname, F.</strong> (2001). Interesting Title. <i>Science</i>, 12(3-4), 567-890.<br><br>
+                    </li>
+                  </li>
+                </ul>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="ro" class="modal fade" role="dialog" aria-labelledby="#ro" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <img class="modal-thumb mr-2" src="http://placekitten.com/256/256">
+                <div><strong>Ro</strong><br><i>Co-op Student</i></div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <ul class="list-unstyled">
+                  <li>
+                    <strong>Education:</strong>
+                    <br>University of British Columbia, Canada
+                    <br>University of Toronto, Canada
+                  </li>
+                  <li>
+                    <br><strong>Email:</strong> placeholder@email.com
+                  </li>
+                  <li>
+                    <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  </li>
+                  <li>
+                    <br><strong>Selected Publications:</strong><br><br>
+                    <li>
+                      <strong>Lastname, F.</strong> (2001). Interesting Title. <i>Science</i>, 12(3-4), 567-890.<br><br>
+                    </li>
+                    <li>
+                      <strong>Lastname, F.</strong> (2001). Interesting Title. <i>Science</i>, 12(3-4), 567-890.<br><br>
+                    </li>
+                    <li>
+                      <strong>Lastname, F.</strong> (2001). Interesting Title. <i>Science</i>, 12(3-4), 567-890.<br><br>
+                    </li>
+                  </li>
+                </ul>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /modal -->
+      <!-- /people -->
+      <!-- gallery -->
+      <div id="gallery" class="container section">
+        <div class="subheader">
+          Gallery
+        </div>
+        <!-- small gallery -->
+        <div id="gallerySmall" class="row align-items-center text-center">
+          <!-- small gallery thumbnail -->
+          <div class="col gallery-wrap">
+            <img class="thumb" src="img/gallery/gal00.jpg" data-toggle="modal" data-target="#gal00">
+          </div>
+          <div class="col gallery-wrap">
+            <img class="thumb" src="img/gallery/gal01.jpg" data-toggle="modal" data-target="#gal01">
+          </div>
+          <div class="col gallery-wrap">
+            <img class="thumb" src="img/gallery/gal02.jpg" data-toggle="modal" data-target="#gal02">
+          </div>
+          <div class="col gallery-wrap">
+            <img class="thumb" src="img/gallery/gal03.jpg" data-toggle="modal" data-target="#gal03">
+          </div>
+          <div class="col gallery-wrap">
+            <img class="thumb" src="img/gallery/gal04.jpg" data-toggle="modal" data-target="#gal04">
+          </div>
+          <div class="col gallery-wrap">
+            <img class="thumb" src="img/gallery/gal05.jpg" data-toggle="modal" data-target="#gal05">
+          </div>
+          <div class="col gallery-wrap">
+            <img class="thumb" src="img/gallery/gal06.jpg" data-toggle="modal" data-target="#gal06">
+          </div>
+          <div class="col gallery-wrap">
+            <img class="thumb" src="img/gallery/gal07.jpg" data-toggle="modal" data-target="#gal07">
+          </div>
+          <div class="col gallery-wrap">
+            <img class="thumb" src="img/gallery/gal08.jpg" data-toggle="modal" data-target="#gal08">
+          </div>
+          <div class="col gallery-wrap">
+            <img class="thumb" src="img/gallery/gal09.jpg" data-toggle="modal" data-target="#gal09">
+          </div>
+          <div class="col gallery-wrap">
+            <img class="thumb" src="img/gallery/gal10.jpg" data-toggle="modal" data-target="#gal10">
+          </div>
+          <div class="col gallery-wrap">
+            <img class="thumb" src="img/gallery/gal11.jpg" data-toggle="modal" data-target="#gal11">
+          </div>
+          <!-- /small gallery thumbnail -->
+          <!-- small gallery modal -->
+          <div id="galleryModal">
+            <div id="gal00" class="modal fade" role="dialog" aria-labelledby="#gal00" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="close-button" data-dismiss="modal" aria-label="Close">&times;</div>
+                  <img class="w-100" src="img/gallery/gal00.jpg">
+                </div>
+              </div>
+            </div>
+            <div id="gal01" class="modal fade" role="dialog" aria-labelledby="#gal01" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="close-button" data-dismiss="modal" aria-label="Close">&times;</div>
+                  <img class="w-100" src="img/gallery/gal01.jpg">
+                </div>
+              </div>
+            </div>
+            <div id="gal02" class="modal fade" role="dialog" aria-labelledby="#gal02" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="close-button" data-dismiss="modal" aria-label="Close">&times;</div>
+                  <img class="w-100" src="img/gallery/gal02.jpg">
+                </div>
+              </div>
+            </div>
+            <div id="gal03" class="modal fade" role="dialog" aria-labelledby="#gal03" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="close-button" data-dismiss="modal" aria-label="Close">&times;</div>
+                  <img class="w-100" src="img/gallery/gal03.jpg">
+                </div>
+              </div>
+            </div>
+            <div id="gal04" class="modal fade" role="dialog" aria-labelledby="#gal04" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="close-button" data-dismiss="modal" aria-label="Close">&times;</div>
+                  <img class="w-100" src="img/gallery/gal04.jpg">
+                </div>
+              </div>
+            </div>
+            <div id="gal05" class="modal fade" role="dialog" aria-labelledby="#gal05" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="close-button" data-dismiss="modal" aria-label="Close">&times;</div>
+                  <img class="w-100" src="img/gallery/gal05.jpg">
+                </div>
+              </div>
+            </div>
+            <div id="gal06" class="modal fade" role="dialog" aria-labelledby="#gal06" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="close-button" data-dismiss="modal" aria-label="Close">&times;</div>
+                  <img class="w-100" src="img/gallery/gal06.jpg">
+                </div>
+              </div>
+            </div>
+            <div id="gal07" class="modal fade" role="dialog" aria-labelledby="#gal07" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="close-button" data-dismiss="modal" aria-label="Close">&times;</div>
+                  <img class="w-100" src="img/gallery/gal07.jpg">
+                </div>
+              </div>
+            </div>
+            <div id="gal08" class="modal fade" role="dialog" aria-labelledby="#gal08" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="close-button" data-dismiss="modal" aria-label="Close">&times;</div>
+                  <img class="w-100" src="img/gallery/gal08.jpg">
+                </div>
+              </div>
+            </div>
+            <div id="gal09" class="modal fade" role="dialog" aria-labelledby="#gal09" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="close-button" data-dismiss="modal" aria-label="Close">&times;</div>
+                  <img class="w-100" src="img/gallery/gal09.jpg">
+                </div>
+              </div>
+            </div>
+            <div id="gal10" class="modal fade" role="dialog" aria-labelledby="#gal10" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="close-button" data-dismiss="modal" aria-label="Close">&times;</div>
+                  <img class="w-100" src="img/gallery/gal10.jpg">
+                </div>
+              </div>
+            </div>
+            <div id="gal11" class="modal fade" role="dialog" aria-labelledby="#gal11" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="close-button close-button-white" data-dismiss="modal" aria-label="Close">&times;</div>
+                  <img class="w-100" src="img/gallery/gal11.jpg">
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- /small gallery modal -->
+        </div>
+        <!-- /small gallery -->
+        <!-- large gallery -->
+        <div id="galleryLarge" class="container align-items-center">
+          <div class="buns container">
+            <div data-target="#carouselLarge" data-slide-to="0" class="gallery-wrap">
+              <img src="img/gallery/gal00.jpg" class="container gallery-thumb">
+            </div>
+            <div data-target="#carouselLarge" data-slide-to="1" class="gallery-wrap">
+              <img src="img/gallery/gal01.jpg" class="container gallery-thumb">
+            </div>
+            <div data-target="#carouselLarge" data-slide-to="2" class="gallery-wrap">
+              <img src="img/gallery/gal02.jpg" class="container gallery-thumb">
+            </div>
+            <div data-target="#carouselLarge" data-slide-to="3" class="gallery-wrap">
+              <img src="img/gallery/gal03.jpg" class="container gallery-thumb">
+            </div>
+            <div data-target="#carouselLarge" data-slide-to="4" class="gallery-wrap">
+              <img src="img/gallery/gal04.jpg" class="container gallery-thumb">
+            </div>
+            <div data-target="#carouselLarge" data-slide-to="5" class="gallery-wrap">
+              <img src="img/gallery/gal05.jpg" class="container gallery-thumb">
+            </div>
+          </div>
+          <div id="carouselLarge" class="patty container carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/gallery/gal00.jpg" class="d-block w-100 p-1">
+              </div>
+              <div class="carousel-item">
+                <img src="img/gallery/gal01.jpg" class="d-block w-100 p-1">
+              </div>
+              <div class="carousel-item">
+                <img src="img/gallery/gal02.jpg" class="d-block w-100 p-1">
+              </div>
+              <div class="carousel-item">
+                <img src="img/gallery/gal03.jpg" class="d-block w-100 p-1">
+              </div>
+              <div class="carousel-item">
+                <img src="img/gallery/gal04.jpg" class="d-block w-100 p-1">
+              </div>
+              <div class="carousel-item">
+                <img src="img/gallery/gal05.jpg" class="d-block w-100 p-1">
+              </div>
+              <div class="carousel-item">
+                <img src="img/gallery/gal06.jpg" class="d-block w-100 p-1">
+              </div>
+              <div class="carousel-item">
+                <img src="img/gallery/gal07.jpg" class="d-block w-100 p-1">
+              </div>
+              <div class="carousel-item">
+                <img src="img/gallery/gal08.jpg" class="d-block w-100 p-1">
+              </div>
+              <div class="carousel-item">
+                <img src="img/gallery/gal09.jpg" class="d-block w-100 p-1">
+              </div>
+              <div class="carousel-item">
+                <img src="img/gallery/gal10.jpg" class="d-block w-100 p-1">
+              </div>
+              <div class="carousel-item">
+                <img src="img/gallery/gal11.jpg" class="d-block w-100 p-1">
+              </div>
+            </div>
+          </div>
+          <div class="buns container">
+            <div data-target="#carouselLarge" data-slide-to="6" class="gallery-wrap">
+              <img src="img/gallery/gal06.jpg" class="container gallery-thumb">
+            </div>
+            <div data-target="#carouselLarge" data-slide-to="7" class="gallery-wrap">
+              <img src="img/gallery/gal07.jpg" class="container gallery-thumb">
+            </div>
+            <div data-target="#carouselLarge" data-slide-to="8" class="gallery-wrap">
+              <img src="img/gallery/gal08.jpg" class="container gallery-thumb">
+            </div>
+            <div data-target="#carouselLarge" data-slide-to="9" class="gallery-wrap">
+              <img src="img/gallery/gal09.jpg" class="container gallery-thumb">
+            </div>
+            <div data-target="#carouselLarge" data-slide-to="10" class="gallery-wrap">
+              <img src="img/gallery/gal10.jpg" class="container gallery-thumb">
+            </div>
+            <div data-target="#carouselLarge" data-slide-to="11" class="gallery-wrap">
+              <img src="img/gallery/gal11.jpg" class="container gallery-thumb">
+            </div>
+          </div>
+        </div>
+        <!-- /large gallery -->
+      </div>
+      <!-- /gallery -->
+      <!-- publications -->
+      <div id="publications" class="container section">
+        <div class="subheader">
+          Publications
+        </div>
+        <ul class="list-unstyled">
+          <li>
+            <strong>Lastname, F.</strong> (2001). Interesting Title. <i>Science</i>, 12(3-4), 567-890.<br><br>
+          </li>
+          <li>
+            <strong>Lastname, F.</strong> (2001). Interesting Title. <i>Science</i>, 12(3-4), 567-890.<br><br>
+          </li>
+          <li>
+            <strong>Lastname, F.</strong> (2001). Interesting Title. <i>Science</i>, 12(3-4), 567-890.<br><br>
+          </li>
+          <li>
+            <a href="https://scholar.google.ca" target="_blank">Full list on Google Scholar</a>
+          </li>
+        </ul>
+      </div>
+      <!-- /publications -->
+      <!-- contact -->
+      <div id="contact" class="container section">
+        <div class="subheader">
+          Contact
+        </div>
+        <div class="container p-0 pb-4">
+          We are always looking for motivated students with a passion for scientific research. Funding permitted, positions are available for individuals of all education levels. If you are interested in joining our lab, please email your cover letter, CV, and transcript to: <strong>placeholder@email.ca</strong>.<br><br>
+          You can also find us in the Life Sciences Institue at UBC Vancouver
+        </div>
+        <div class="row">
+          <div class="container col-md-7 col-lg-8 pb-4 align-self-center text-center text-md-left">
+            <iframe id="map" width="100%" height="300" src="https://maps.google.com/maps?q=life%20sciences%20centre&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+          </div>
+          <div class="container col-md-5 col-lg-4 pl-md-4 text-center text-md-left">
+            <ul class="list-unstyled">
+              <strong>Address:</strong><br><br>
+              Life Sciences Centre<br>
+              2350 Health Sciences Mall<br>
+              University of British Columbia<br>
+              Vancouver, BC, V6T 1Z3, Canada<br><br>
+              <strong>Contact:</strong><br><br>
+              Chris, PhD<br>
+              Associate Professor<br>
+              Email: placeholder@email.ca<br>
+              Office: 604-012-3456<br>
+              Lab: 604-012-3457<br>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- /contact -->
+    </div>
+    <!-- /content -->
+    <!-- footer -->
+    <footer class="page-footer p-md-4 p-2">
+      <div class="container-fluid text-center margins">
+        <div class="row">
+          <div class="container col-md-6 text-md-left">
+            <embed class="w-100" style="max-width: 300px;" src="img/logo.png">
+          </div>
+          <div class="col-md-6 text-md-right">
+            <ul class="list-unstyled">
+              <li>
+                <a href="https://www.ubc.ca/" target="_blank">UBC</a>
+              </li>
+              <li>
+                <a href="https://cps.med.ubc.ca/" target="_blank">CPS</a>
+              </li>
+              <li>
+                <a href="https://www.yeastgenome.org/" target="_blank">SGD</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright text-center">
+        © 2019 Peter Liu
+      </div>
+      <script src="script.js"></script>
+    </footer>
+    <!-- /footer -->
+  </body>
+</html>

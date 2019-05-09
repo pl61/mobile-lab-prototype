@@ -1,0 +1,299 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  background-color: #EDEDED;
+}
+
+.navtog2 {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  z-index: 1040;
+  padding: 5px 0px;
+}
+
+#navbarLeft2 {
+  position: fixed;
+  float: right;
+  right: 0px;
+  top: 40px;
+  z-index: 1040;
+  width: 400px;
+}
+
+@media (max-width: 575px) {
+  #navbarLeft2 {
+    width: 100%;
+  }
+}
+
+.btn:focus, .btn:active {
+  outline: none;
+  box-shadow: none;
+}
+
+.jumbo-text-l {
+  font-size: 3.5rem;
+  font-weight: 100;
+  color: white;
+  text-shadow: 0.03em 0.03em black;
+  margin: 0;
+}
+
+.jumbo-text-s {
+  font-size: 1.5rem;
+  font-weight: 100;
+  color: white;
+  text-shadow: 0.05em 0.05em black;
+  margin: 0;
+}
+
+@media (max-width: 575px) {
+  .jumbo-text-s {
+    font-size: 1.25rem;
+  }
+  .jumbo-text-l {
+    font-size: 2.5rem;
+  }
+}
+
+.jumbotron {
+  background-image: url(./img/banner.jpg);
+  background-position: 75% 25%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 1rem;
+  padding: 6rem 0;
+}
+
+@media (min-width: 992px) {
+  .jumbotron {
+    padding-bottom: 8rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .jumbotron {
+    padding-left: 4rem;
+    padding-bottom: 10rem;
+  }
+}
+
+@media (min-width: 1680px) {
+  .jumbotron {
+    padding-bottom: 14rem;
+  }
+  .jumbo-text-s {
+    font-size: 2.5rem;
+  }
+  .jumbo-text-l {
+    font-size: 5rem;
+  }
+}
+
+.navbar-toggler:focus, .navbar-toggler:active {
+  outline: none;
+  box-shadow: none;
+}
+
+.navbar-dark .navbar-toggler {
+  border-color: transparent;
+}
+
+.main {
+  background-color: white;
+}
+
+.illust {
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .illust {
+    padding-bottom: 1rem;
+  }
+}
+
+.section {
+  padding-bottom: 1.5rem;
+}
+
+.subheader-small {
+  text-align: center;
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.subheader {
+  text-align: center;
+  font-size: 3rem;
+  padding: 1rem 0 2rem;
+}
+
+.thumb-cap {
+  font-style: italic;
+  font-size: 0.9rem;
+}
+
+.thumb {
+  width: 140px;
+  border: 1px solid transparent;
+}
+
+.thumb:hover {
+  box-shadow: 0 0 5px #6495ED;
+  border: 1px solid #6495ED;
+}
+
+@media (min-width: 375px) {
+  .thumb {
+    width: 160px;
+  }
+}
+
+@media (min-width: 992px) {
+  .thumb {
+    width: 200px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .thumb {
+    width: 240px;
+  }
+}
+
+.thumb-wrap {
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-bottom: 2rem;
+}
+
+@media (max-width: 991px) {
+  .thumb-wrap {
+    flex-basis: 33.3%;
+  }
+}
+
+.wrapper {
+  display: inline-block;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+.rounded-circle {
+  max-width: 130px;
+  border: 1px solid transparent;
+}
+
+.modal-header {
+  border-color: transparent;
+  align-items: center;
+  justify-content: initial;
+}
+
+.close {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+}
+
+.modal-thumb {
+  position: relative;
+  border-radius: 5px;
+  max-width: 160px;
+}
+
+.gallery-wrap {
+  padding: 0.25rem;
+  cursor: pointer;
+}
+
+.gallery-thumb {
+  padding: 0;
+  border: 1px solid transparent;
+}
+
+.gallery-thumb:hover {
+  box-shadow: 0 0 5px #6495ED;
+  border: 1px solid #6495ED;
+}
+
+.close-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0.5rem;
+  cursor: pointer;
+  font-size: 2.5rem;
+  line-height: 1rem;
+  color: black;
+}
+
+.close-button-white {
+  color: white;
+}
+
+#carouselLarge {
+  max-width: 800px;
+}
+
+.buns {
+  width: 12.15%;
+  padding: 0;
+  margin: 0;
+}
+
+.patty {
+  width: 75%;
+  padding: 0;
+}
+
+#galleryLarge {
+  display: none;
+  max-height: 600px;
+}
+
+@media (min-width: 992px) {
+  #gallerySmall {
+    display: none;
+  }
+  #galleryLarge {
+    display: flex;
+  }
+}
+
+#galleryModal .modal-dialog {
+  max-width: 800px
+}
+
+#galleryModal .modal-body {
+  padding: 0;
+}
+
+.page-footer {
+  background: #343a40;
+  color: rgba(255,255,255,.5);
+}
+
+.margins {
+  max-width: 1140px;
+}
+
+@media (min-width: 768px) {
+  #map {
+    height: 350px;
+  }
+}
+
+@media (min-width: 992px) {
+  #map {
+    height: 400px;
+  }
+}
+
+@media (max-width: 787px) {
+  #map {
+    max-width: 399px;
+  }
+}
