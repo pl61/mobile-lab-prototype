@@ -4,8 +4,7 @@
   "description": "protype of lab website",
   "main": "server/index.js",
   "scripts": {
-    "start": "node server/",
-    "server": "nodemon server/"
+    "start": "node server/"
   },
   "repository": {
     "type": "git",
@@ -18,9 +17,7 @@
     "url": "https://github.com/pl61/ssp-lab-prototype/issues"
   },
   "homepage": "https://github.com/pl61/ssp-lab-prototype#readme",
-  "devDependencies": {
-    "nodemon": "^1.19.0"
-  },
+  "devDependencies": {},
   "dependencies": {
     "express": "^4.16.4"
   }
