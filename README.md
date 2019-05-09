@@ -1,4 +1,7 @@
 # ssp-lab-prototype
+
+[Link to deployed website](https://guarded-retreat-22735.herokuapp.com/)
+
 Mobile-first, single page prototype website for a certain research lab.
 
 Sources for placeholder gallery and people images:  
