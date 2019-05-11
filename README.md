@@ -1,6 +1,6 @@
 # ssp-lab-prototype
 
-[Link to deployed website](https://guarded-retreat-22735.herokuapp.com/)
+[Link to deployed website](http://54.218.116.48:3001/)
 
 Mobile-first, single page website prototype for a certain research lab.
 
